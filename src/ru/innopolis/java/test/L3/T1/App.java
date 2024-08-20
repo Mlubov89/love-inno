@@ -8,9 +8,11 @@ public class App {
         String name = scanner.nextLine();
         int price = scanner.nextInt();
         int diagonal = scanner.nextInt();
-        Television television = new Television(name, price, diagonal);
+        Television television = new Television( name, price, diagonal);
         System.out.println(television);
         Television television2 = new Television("lg", 10000, 30);
-        television2.on();
+        System.out.println(television2);
+        television.on();
+        television2.off();
     }
 }
