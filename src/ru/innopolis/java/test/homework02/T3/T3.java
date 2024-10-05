@@ -1,4 +1,4 @@
-package ru.innopolis.java.test.L2.T3;
+package ru.innopolis.java.test.homework02.T3;
 
 import java.util.Scanner;
 
